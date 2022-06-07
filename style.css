@@ -1,32 +1,30 @@
 body {
-    margin: auto;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: auto;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .img-cl {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 img {
-    
-    width: 120px;
-    height: 120px;
-    
+  width: 120px;
+  height: 120px;
 }
 
 footer {
-    width: 100%;
-    height: 100px;
-    background-color: #004c99;
+  width: 100%;
+  height: 100px;
+  background-color: #004c99;
 }
 
 footer p {
-    text-align: center;
-    padding: 20px;
-    color: whitesmoke;
-    font-weight: bolder;
-    text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  color: whitesmoke;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
