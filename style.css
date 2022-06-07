@@ -1,0 +1,13 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+
+p::before {
+    content: '';
+    align-items: center;
+    background: red;
+    display: block;
+    width: 10px;
+    height: 10px;
+}
