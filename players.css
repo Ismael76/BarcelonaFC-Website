@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2rem;
+  background: linear-gradient(#00f7ff, #88ff00);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 10% repeat(3, 1fr);
+  column-gap: 0.5rem;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.player-img {
+  width: 40%;
+  height: 200px;
+  justify-self: center;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.headings {
+  justify-self: center;
+}
+
+a:hover {
+  color: lime;
+}
+
+p {
+  margin: 1rem;
+}
