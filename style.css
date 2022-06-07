@@ -39,8 +39,8 @@ footer p {
 
 
 .links {
+  margin-right: 6rem;
   text-align: center;
-
 }
 
 .links-ul {
@@ -63,4 +63,8 @@ li>a {
 
 li>a:hover {
   color: #a60042;
+  font-weight: bolder;
+  background-color: #004c99;
+  transform: scale(1.2, 1.2);
+  transition: all 0.3s;
 }
