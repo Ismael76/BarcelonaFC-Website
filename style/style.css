@@ -65,6 +65,9 @@ li>a:hover {
   color: #a60042;
   font-weight: bolder;
   background-color: #004c99;
-  transform: scale(1.2, 1.2);
-  transition: all 0.3s;
+  transition: all 0.4s;
+}
+
+p {
+  text-align: justify;
 }
