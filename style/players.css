@@ -10,7 +10,7 @@ body {
 
 .players {
   display: grid;
-  grid-template-columns: 10% 1fr;
+  grid-template-columns: 15% 1fr;
   grid-template-rows: 10% repeat(3, 1fr);
   column-gap: 0.5rem;
   margin: auto;
@@ -25,6 +25,8 @@ body {
 
 h1 {
   text-align: center;
+  margin-top: 1rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .headings {
@@ -36,22 +38,23 @@ p {
   height: fit-content;
 }
 
-a:hover {
+nav a {
+  text-decoration: none;
+  color: #004c99;
+  padding: 10px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
   color: #a60042;
   font-weight: bolder;
   background-color: #004c99;
   transition: all 0.4s;
 }
 
-nav a {
-  text-decoration: none;
-  color: #004c99;
-  padding: 20px;
-  font-family: "Bebas Neue", cursive;
-  font-size: 1.2rem;
-}
-
 footer {
+  margin-top: 2rem;
   width: 100%;
 }
 
